@@ -1,5 +1,7 @@
 
-<img src="" style="">
+<p align="center">
+  <img src="https://i.pinimg.com/564x/ed/66/63/ed666327dd3ce274d94f2b3547155891.jpg" width="200" style="display: block; margin: 0 auto;">
+</p>
 
 ## Python的学习笔记
 
