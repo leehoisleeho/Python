@@ -38,6 +38,14 @@ while i < 100:
 - print('hello',end='') 不换行
 - print('hello\tworld') 不换行
 
+### for
+#### for 循环
+是轮循 机制
+```
+for i in 数组：
+
+    满足条件的代码
+```
 
 
 
