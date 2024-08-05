@@ -39,13 +39,43 @@ while i < 100:
 - print('hello\tworld') 不换行
 
 ### for
-#### for 循环
-是轮循 机制
-```
-for i in 数组：
 
-    满足条件的代码
+是轮循机制，遍历循环♻️
+语法格式
+
+```python
+str = 'hello world'
+for item in str:
+    print(f'item+ item')
 ```
+**continue** 中断本次循环，进入下次循环
+
+**break** 直接跳出循环体
+
+### range
+
+创建一组可以被遍历的序列
+
+语法格式
+```python
+# 从0-7
+list = range(8)
+for item in list:
+    print(item)
+
+# 从1-7
+list = range(1,8)
+for item in list:
+    print(item)
+    
+# 从1-7 步长是2
+list = range(1,8,2)
+for item in list:
+    print(item)
+```
+
+
+
 
 
 
