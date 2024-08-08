@@ -4,6 +4,14 @@ list = ['lihao','zhangsan','lisi']
 index = list.index('lihao')
 print(index)
 
+# 统计元素出现的次数
+count = list.count('lihao')
+print(count)
+
+# 列表的长度
+length = len(list)
+print(length)
+
 # 修改
 list[0] = 'leeho'
 print(list)
@@ -33,4 +41,13 @@ print(list)
 val = list.pop(0)
 print(list)
 print(val)
+
+# 从前到尾 搜索到的第一个
+list.remove('leeho')
+print(list)
+
+# 清空列表
+list.clear()
+print(list)
+
 
