@@ -136,6 +136,26 @@ print(my_list)
 ### 字典dict
 键值对 ```key:value``` 
 
+### 数据容器通用方法
+都可以用for循环进行遍历
+
+len/max/min
+容器长度/最大元素/最小元素
+
+容器转换
+
+str(容器)/list(容器)/tuple(容器)/set(容器)/
+
+排序
+```python
+# sorted(容器,{})
+# 排序完都变成列表
+mylist = [1,2,3,6,1,23,4]
+print(sorted(mylist,reverse=True))
+```
+
+
+
 
  
 

@@ -28,3 +28,28 @@ print(my_dict_1)
 my_dict_1['lihao'] = 99
 print(my_dict_1)
 
+# 删除
+my_dict_1.pop('lihao')
+print(my_dict_1)
+
+# 清空
+my_dict_2.clear()
+print(my_dict_2)
+
+# 得到字典里是有的key
+keys = my_dict_1.keys()
+print(keys)
+
+
+# 遍历字典
+for item in keys:
+    print(my_dict_1[item])
+
+for item in my_dict_1:
+    print(my_dict_1[item])
+
+# 元素的数量
+length = len(my_dict_1)
+print(length)
+
+
