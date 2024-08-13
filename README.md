@@ -153,6 +153,9 @@ str(容器)/list(容器)/tuple(容器)/set(容器)/
 mylist = [1,2,3,6,1,23,4]
 print(sorted(mylist,reverse=True))
 ```
+### 函数扩展
+详见fun.py
+
 
 
 
